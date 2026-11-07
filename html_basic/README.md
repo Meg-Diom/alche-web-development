@@ -1,0 +1,1 @@
+This project is an introduction to HTML (HyperText Markup Language), the standard language used to create stuctured web pages. It focuses on understanding the basic structure of a HTML document and learning how to use HTML elements to organize and display content on a webpage
