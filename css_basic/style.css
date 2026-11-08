@@ -17,4 +17,79 @@ article {
 aside {
     flex: 1;
     overflow-y: auto;
+}/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    color: black;
+    margin: 0;
+}
+
+/* Header */
+header {
+    background-color: midnightblue;
+    color: white;
+    padding: 15px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: deepskyblue;
+}
+
+/* Main content */
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+/* Article */
+article {
+    flex: 2;
+    overflow-y: auto;
+    background-color: white;
+    padding: 25px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+article h1 {
+    color: midnightblue;
+}
+
+/* Aside */
+aside {
+    flex: 1;
+    overflow-y: auto;
+    background-color: lightgray;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: midnightblue;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+footer a {
+    color: deepskyblue;
+    text-decoration: none;
 }
