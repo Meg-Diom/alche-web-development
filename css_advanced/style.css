@@ -1,0 +1,344 @@
+.hero-section{
+  background-image: url("images/main_part.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 1440px;
+  height: 1093px;
+}
+.site-logo {
+  width: 167.02px;
+  height: 29.46px;
+}
+.main-navigation  a {
+  font-family: Source Sans Pro, sans-serif; 
+  font-weight: bold;
+  font-size: 12px;
+  color: #FFFFFF;
+  text-decoration: none;     
+}
+.main-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 234px;
+  height: 15px;
+}
+.header-container {
+  width: 1103.41px;
+  height: 29.46px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  position: absolute;
+  left: 171.59px;
+  top: 35.02px;
+  z-index: 1;
+  margin-top: 35.02px; 
+}
+.hero-title {
+  font-family: Source San Pro, sans-serif;
+  font-weight: bold;
+  font-size: 100px;
+  position: absolute;
+  left: 377px;
+  top: 155px;
+  color: #FFFFFF;
+  line-height: auto;
+  letter-spacing: 0px;
+}
+.keyword-content1{
+  width: 52px;
+  height: 20px;
+  position: absolute;
+  left: 593px;
+  top: 361px;
+  line-height: auto;
+  letter-spacing: 0px;
+}
+.keyword-content2{
+  width: 36px;
+  position: absolute;
+  left: 704px;
+  top: 361px;
+  line-height: auto;
+  letter-spacing: 0px;
+}
+.keyword-content3{
+  width: 49px;
+  position: absolute;
+  left: 797px;
+  top: 361px;
+  line-height: auto;
+  letter-spacing: 0px;
+}
+.hero-keywords {
+  font-family: Source Sans Pro, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.hero-content {
+  width: 684px;
+  height: 151px;
+  display: flex;
+  flex-direction: column;
+}
+.primary-button1,
+.primary-button2 {
+  width: 162px;
+  height: 44px;
+  border-radius: 22px;
+  background-color: #C271FF;
+  color: #FFFFFF;
+  font-family: Source Sans Pro, sans-serif;
+  font-weight: semibold;
+  font-size: 14px;
+  padding: 6.5px 10px;
+  border: 1px solid #C271FF;
+}
+.primary-button1 {
+  position: absolute;
+  left: 639px;
+  top: 419px;
+}
+.section-title {
+  position: absolute;
+  left: 604px;
+  top: 631px;
+  font-family: Source-Sans Pro, sans-serif;
+  width: 300px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 32px;
+  color: #FFFFFF;
+}
+.section-title span {
+  color: #C271FF;
+}
+.instructors-container {
+  width: 1009px;
+  height: 237px;
+  position: absolute;
+  left: 217px;
+  top: 758px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.instructor-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+}
+.instructor-card {
+  width: 150px;
+  height: 237px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+}
+.instructor-card h3 {
+  position: absolute;
+  left: 0px;
+  top: 160px;
+  color: #FFFFFF;
+  width: 150px;
+  height: 27px;
+  line-height: 27px;
+  font-size: 17px;
+  font-family: Source Sans Pro, sans-serif;
+  margin-top: 40px;
+}
+.instructor-card p {
+  font-family: Source Sans Pro, sans;
+  font-size: 15px;
+  font-style: italic;
+  line-height: 24px;
+  color: #FFFFFF;
+  width: 180px;
+  position: absolute;
+  left: 0px;
+  top: 189px;
+  margin-top: 40px;
+  text-align: center;
+  margin-left: -15px;
+}
+.quotes-section {
+  width: 1440px;
+  height: 392px;
+  background-color: #C271FF;
+}
+.quote-container {
+  width: 943px;
+  height: 160px;
+  position: absolute;
+  left: 259px;
+  top: 1201px;
+  justify-content: space-between;
+}
+.quote-content {
+  display: flex;
+  flex-direction: column;
+  width: 730px;
+  height: 158px;
+  color: #FFFFFF;
+  font-family: Source Sans Pro, sans-serif;
+}
+.quote-content p {
+  line-height: 0px;
+}
+.quotes-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+}
+.quote-text {
+  width: 620px;
+  height: 68px;
+}
+.quote-author {
+  margin-left: 35px;
+}
+.quote-role {
+  margin-left: 35px;
+}
+.popular-tutorials {
+  width: 1228px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 106px;
+  top: 1572;
+}
+.tutorial-card {
+  width: 255px;
+  height: 335px;
+}
+.thumbmail {
+  width: 255px;
+  height: 154px;
+}
+.tutorial-title {
+  font-family: Source Sans Pro, sans-serif;
+  font-weight: bold;
+  color: #072629;
+  font-size: 16px;
+  width: 126px;
+  height: 20px;
+  margin-left: 10px;
+}
+.tutorial-description {
+  width: 242px;
+  height: 48px;
+  color: #071629;
+  font-size: 14px;
+  font-family: Source Snas Pro, sans-serif;
+}
+.tutorial-author img {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+.tutorial-author h3 {
+  width: 86px;
+  height: 27px;
+  color: #C271FF;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+.rating-star {
+  width: 107;
+  height: 15px;
+}
+.tutorial-duration {
+  font-family: Source Sans Pro, sans-serif;
+  color: #C271FF;
+  justify-content: space-between;
+}
+.tutorial-rating {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.membership-section {
+  width: 1440px;
+  height: 502px;
+  background-color: #071629;
+  position: relative;
+  top: 2190px;
+  display: flex;
+  flex-direction: column;
+}
+.membership-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 200px;
+  margin-top: 150px;
+}
+.membership-card {
+  width: 257px;
+  height: 153px;
+}
+.membership-card img {
+  margin-left: 60px;               
+}
+.membership-card h2 {
+  color: #FFFFFF;
+  font-family: Source Sans Pro, sans-serif;
+  width: 256px;
+  height: 26px;
+  font-weight: 700; 
+}
+.membership-card p {
+  color: #FFFFFF;
+  font-family: Source Sans Pro, sans-serif;
+  width: 212px;
+  height: 52px;
+}
+.section-title1 {
+  font-family: Source-Sans Pro, sans-serif;
+  width: px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 32px;
+  color: #000000;
+}
+.section-title1 span {
+  color: #C271FF;
+  font-weight: bold;
+}
+.section-title2 {
+  font-family: Source-Sans Pro, sans-serif;
+  width: 300px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 32px;
+  color: #FFFFFF;
+  margin-left:533px;
+  margin-top: 2px;
+}
+.section-title2 span {
+  color: #C271FF;
+}
+.section-title3 {
+  font-family: Source-Sans Pro, sans-serif;
+  width: 300px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 32px;
+  color: #FFFFFF;
+}
+.section-title3 span {
+  color: #C271FF;
+}
+.primary-button2 {
+  margin-left: -650px;
+  margin-top: 230px;
+}
