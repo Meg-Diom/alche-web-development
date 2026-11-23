@@ -224,6 +224,11 @@
   width: 255px;
   height: 154px;
 }
+.tutorials-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 .tutorial-title {
   font-family: Source Sans Pro, sans-serif;
   font-weight: bold;
@@ -253,9 +258,13 @@
   font-size: 14px;
   font-weight: bold;
 }
-.rating-star {
-  width: 107;
+.rating-stars {
+  width: 107px;
   height: 15px;
+}
+.rating-stars img {
+  width: 15px;
+  height: 15px;;
 }
 .tutorial-duration {
   font-family: Source Sans Pro, sans-serif;
@@ -271,7 +280,7 @@
   width: 1440px;
   height: 502px;
   background-color: #071629;
-  position: relative;
+  position: absolute;
   top: 2190px;
   display: flex;
   flex-direction: column;
@@ -331,14 +340,80 @@
   font-family: Source-Sans Pro, sans-serif;
   width: 300px;
   height: 40px;
-  font-weight: 400;
+  font-weight: 100;
   font-size: 32px;
-  color: #FFFFFF;
+  color: #000000;
+  font-size: 60px;
+  margin-left: 32 0px;
 }
 .section-title3 span {
   color: #C271FF;
 }
 .primary-button2 {
-  margin-left: -650px;
-  margin-top: 230px;
+  margin-left: 625px;
+  margin-top: 60px;
+  z-index: 5;
+}
+.faq-section {
+  width: 920px;
+  height: 707px;
+  display: flex;
+  flex-direction: column;
+  /*position: absolute;
+  left: 249px;
+  top: 2678px;*/
+  margin-left: 100px;
+}
+.faq-item {
+  width: 350px;
+  height: 242px;
+}
+.faq-container {
+  display: flex;
+  row-gap: 100px;
+  column-gap: 120px;
+}
+.faq-question {
+  font-family: Source Sans Pro, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #072629
+}
+.faq-answer {
+  font-family: Source Sans Pro, sans-serif;
+  color: grey;
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 24px;;
+}
+.site-footer {
+  width: 1440px;
+  height: 249px;
+  background-color: #071629;
+  position: absolute;
+  left: 0px;
+  top: 3469px;
+}
+.social-links {
+  width: 130px;
+  height: 30px;
+  margin-left: 1070px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+}
+.footer-logo {
+  width: 169px;
+  height: 30px;
+  margin-left: 165px;
+  margin-top: 95px;
+}
+.copywrite {
+  width: 130px;
+  height: 15px;
+  margin-left: 672px;
+  margin-top: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-family: Source Sans Pro, sans-serif;
 }
